@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+}
+
+header h1{
+    color: rgba(0, 29, 196, 0.788);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ayuda{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(255, 255, 255)
+}
+
+header{
+    background-color: rgba(253, 224, 58, 0.342);
+}
+
+nav{
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.links-header{
+    text-align: end;
+
+}
+
+
+.contenedor{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.imagen{
+    width: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.texto-mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mapa{
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: rgba(253, 224, 58, 0.342);
+    position: relative;
+    margin-top: 9px;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .pie {
+            margin-left: 30px;
+        }
+}

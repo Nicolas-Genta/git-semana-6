@@ -131,3 +131,9 @@ main div p{
 footer{
     background-color: rgb(247, 246, 246);
 }
+
+footer nav div a h6{
+    color: blue;
+    font-size: 30px;
+    margin-left: 40px;
+}   

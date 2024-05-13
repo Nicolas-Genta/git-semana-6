@@ -19,8 +19,6 @@ header {
     align-items: center;
 }
 
-
-
 .hamburguesa{
     width: 30px;
 }
@@ -34,7 +32,6 @@ header div h1{
 header nav ul {
     list-style-type: none;
     display: flex;
-    
 }
 
 header nav ul li{
@@ -48,8 +45,7 @@ header nav ul li a{
     color: rgb(224, 224, 224);
     background-color: rgba(30, 30, 248, 0.849);
     padding: 10px;
-    border-radius: 10px;
-
+    border-radius: 10px
 }
 
 header nav ul li a:hover {
@@ -75,7 +71,6 @@ nav ul{
     justify-content: space-around;
     list-style-type: none;
     margin: 20px;
-
 }
 
 nav ul li a{
@@ -102,7 +97,6 @@ h2{
     margin: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
-    
 }
 
 main div div p{
@@ -138,7 +132,6 @@ main div p{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .mapa{
@@ -156,6 +149,32 @@ main div p{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+div form{
+    margin-left: 200px; 
+    margin-right: 200px;
+}
+
+div form div input{
+    margin: 10px;
+    width: 100%;
+}
+
+.formulario{
+    height: 45px;
+}
+
+.formulario-2{
+    height: 300px;
+}
+
+.boton{
+    background-color: rgb(30, 30, 248, 0.849);
+    color: rgb(224, 224, 224);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
 }
 
 footer{
@@ -207,6 +226,11 @@ footer nav div a h6{
         grid-template-columns: 1fr 1fr;
         grid-gap: 30px;
     }
+
+    div form {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
 }
 
 @media (max-width:320px){
@@ -245,5 +269,20 @@ footer nav div a h6{
         font-size: 25px;
         padding: 0px;
         margin: 10px;
+    }
+
+    div form {
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+
+    h2{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .formulario-2 {
+        height: 174px;
     }
 }

@@ -6,7 +6,7 @@
 header {
     background-color: rgb(247, 246, 246);
     display: flex;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -87,7 +87,7 @@ nav ul li a:hover {
 }
 
 body{
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(228, 228, 228);
 }
 
 h2{
@@ -112,6 +112,10 @@ main div p{
 }
 
 .contenedor{
+    box-shadow: 10px 10px 20px rgb(124, 124, 124);
+    background-color: white;
+    margin: 60px;
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -177,8 +181,21 @@ div form div input{
     border-radius: 10px;
 }
 
+.subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 60px;
+}
+
+.card{
+    z-index: -1;
+    margin: 50px;
+    box-shadow: 10px 10px 20px rgb(124, 124, 124);
+}
+
 footer{
     background-color: rgb(247, 246, 246);
+    border-top: 2px solid black;
 }
 
 footer nav div a h6{
@@ -242,22 +259,23 @@ footer nav div a h6{
     }
 
     .contenedor{
+        margin: 20px;
         flex-direction: column;
     }
 
     .imagen-1 {
         width: 250px;
-        margin: 0px;
+        margin: 10px;
     }
     
     .imagen-2 {
         width: 250px;
-        margin: 0px;
+        margin: 10px;
     }
 
     .mapa{
-        width: 280px;
-        margin-bottom: 0px;
+        width: 290px;
+        margin: 10px;
     }
 
     .titulo{

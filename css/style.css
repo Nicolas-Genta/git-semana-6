@@ -193,7 +193,7 @@ footer nav div a h6{
     }
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     header nav{
         display: none;
     }
@@ -233,7 +233,7 @@ footer nav div a h6{
     }
 }
 
-@media (max-width:340px){
+@media (max-width: 426px) {
     .grid-container {
         padding: 50px;
         display: grid;

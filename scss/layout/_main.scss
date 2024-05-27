@@ -1,0 +1,61 @@
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    margin: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+main{
+    div{
+        div{
+            p{
+                margin: 40px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+main{
+    div{
+        p{
+            margin: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+    }
+}
+
+.contenedor{
+    box-shadow: 10px 10px 20px rgb(124, 124, 124);
+    background-color: white;
+    margin: 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.imagen-1{
+    width: 400px;
+    margin: 40px;
+}
+
+.imagen-2{
+    width: 400px;
+    margin: 40px;
+}
+
+.texto-mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa{
+    margin: 40px;
+}

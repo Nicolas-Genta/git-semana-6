@@ -1,0 +1,39 @@
+@media (max-width: 767px) {
+    header nav {
+        display: none;
+    }
+
+    .borde {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .titulo {
+        font-size: 30px;
+    }
+
+    .imagen-1 {
+        width: 300px;
+        margin-right: 0px;
+    }
+
+    .imagen-2 {
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    .grid-container {
+        padding: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+
+    div form {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+}

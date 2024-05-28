@@ -8,11 +8,11 @@ body {
 }
 
 header {
-  background-color: rgb(247, 246, 246);
   display: flex;
-  border-bottom: 2px solid black;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(247, 246, 246);
+  border-bottom: 2px solid black;
   padding: 10px;
   position: sticky;
   top: 0;
@@ -45,18 +45,23 @@ header nav ul li {
 header nav ul li a {
   display: flex;
   text-decoration: none;
-  color: rgb(224, 224, 224);
-  background-color: rgba(30, 30, 248, 0.849);
-  padding: 10px;
-  border-radius: 10px;
 }
 
 header nav ul li a:hover {
-  background-color: rgb(45, 45, 201);
+  background-image: radial-gradient(circle, rgb(3, 0, 207) 25%, rgb(0, 171, 194) 75%);
 }
 
 nav ul li a:hover {
-  background-color: rgb(45, 45, 201);
+  background-image: radial-gradient(circle, rgb(3, 0, 207) 25%, rgb(0, 171, 194) 75%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(228, 228, 228);
 }
 
 .borde {
@@ -66,21 +71,28 @@ nav ul li a:hover {
 .borde ul {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   list-style-type: none;
   margin: 20px;
 }
 .borde ul li a {
   display: flex;
   text-decoration: none;
-  color: rgb(224, 224, 224);
-  background-color: rgba(30, 30, 248, 0.849);
-  padding: 10px;
-  border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(228, 228, 228);
 }
 
 h2 {
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 34px;
   margin: 50px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -100,14 +112,15 @@ main div p {
 }
 
 .contenedor {
+  display: flex;
+  justify-content: start;
+  align-items: center;
   box-shadow: 10px 10px 20px rgb(124, 124, 124);
   background-color: white;
   margin: 60px;
   border-radius: 10px;
-  display: flex;
   flex-direction: row;
-  justify-content: start;
-  align-items: center;
+  z-index: -1;
 }
 
 .imagen-1 {
@@ -160,12 +173,21 @@ div form div input {
   height: 300px;
 }
 
-.boton {
+.boton, header nav ul li a, .borde ul li a {
   background-color: rgba(30, 30, 248, 0.849);
   color: rgb(224, 224, 224);
   padding: 10px;
   border: none;
   border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(228, 228, 228);
 }
 
 .subtitulo {
@@ -227,9 +249,10 @@ footer nav div a h6 {
     margin-right: 30px;
   }
   h2 {
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
   }
   .formulario-2 {
     height: 174px;

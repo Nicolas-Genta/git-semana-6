@@ -1,9 +1,13 @@
+@mixin display($display, $justify-content, $align-items) {
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
 header {
+    @include display(flex, space-between, center);
     background-color: rgb(247, 246, 246);
-    display: flex;
     border-bottom: 2px solid black;
-    justify-content: space-between;
-    align-items: center;
     padding: 10px;
     position: sticky;
     top: 0;
@@ -36,10 +40,7 @@ header {
                 a{
                     display: flex;
                     text-decoration: none;
-                    color: rgb(224, 224, 224);
-                    background-color: rgba(30, 30, 248, 0.849);
-                    padding: 10px;
-                    border-radius: 10px
+                    @extend .boton
                 }
             }
         }

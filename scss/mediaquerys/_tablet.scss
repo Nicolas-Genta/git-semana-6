@@ -3,6 +3,18 @@
         display: none;
     }
 
+    header {
+        nav {
+            ul {
+                li {
+                    a:hover {
+                        background-image: none
+                    }
+                }
+            }
+        }
+    }
+
     .borde {
         display: none;
     }

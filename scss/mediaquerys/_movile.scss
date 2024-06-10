@@ -6,6 +6,18 @@
         grid-gap: 30px;
     }
 
+    header {
+        nav {
+            ul {
+                li {
+                    a:hover {
+                        background-image: none
+                    }
+                }
+            }
+        }
+    }
+
     .contenedor {
         margin: 20px;
         flex-direction: column;

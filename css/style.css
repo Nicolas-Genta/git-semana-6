@@ -21,9 +21,6 @@ header .logo-and-title {
   display: flex;
   align-items: center;
 }
-header .hamburguesa {
-  width: 30px;
-}
 header div h1 {
   font-size: 40px;
   display: flex;
@@ -219,6 +216,9 @@ footer nav div a h6 {
     grid-template-columns: 1fr;
     grid-gap: 30px;
   }
+  header nav ul li a:hover {
+    background-image: none;
+  }
   .contenedor {
     margin: 20px;
     flex-direction: column;
@@ -264,6 +264,9 @@ footer nav div a h6 {
 @media (max-width: 767px) {
   header nav {
     display: none;
+  }
+  header nav ul li a:hover {
+    background-image: none;
   }
   .borde {
     display: none;

@@ -2,10 +2,10 @@
     .grid-container {
         padding: 50px;
         display: grid;
-        grid-template-columns: 1fr;
         grid-gap: 30px;
+        grid-template-columns: 1fr;
     }
-
+    
     header {
         nav {
             ul {
@@ -16,6 +16,15 @@
                 }
             }
         }
+    }
+
+    .subtitulo{
+        margin: 0px;
+        text-align: center;
+    }
+
+    .tarjetas{
+        margin-left: 120px;
     }
 
     .contenedor {
@@ -59,6 +68,11 @@
         margin-top: 20px;
         margin-bottom: 20px;
         text-align: center;
+    }
+
+    .ancho{
+        margin-left: 10px;
+        margin-right: 28px;
     }
 
     .formulario-2 {

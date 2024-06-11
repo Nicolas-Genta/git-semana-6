@@ -213,11 +213,18 @@ footer nav div a h6 {
   .grid-container {
     padding: 50px;
     display: grid;
-    grid-template-columns: 1fr;
     grid-gap: 30px;
+    grid-template-columns: 1fr;
   }
   header nav ul li a:hover {
     background-image: none;
+  }
+  .subtitulo {
+    margin: 0px;
+    text-align: center;
+  }
+  .tarjetas {
+    margin-left: 120px;
   }
   .contenedor {
     margin: 20px;
@@ -254,6 +261,10 @@ footer nav div a h6 {
     margin-bottom: 20px;
     text-align: center;
   }
+  .ancho {
+    margin-left: 10px;
+    margin-right: 28px;
+  }
   .formulario-2 {
     height: 174px;
   }
@@ -262,11 +273,20 @@ footer nav div a h6 {
   }
 }
 @media (max-width: 767px) {
+  .grid-container {
+    padding: 50px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+  }
   header nav {
     display: none;
   }
   header nav ul li a:hover {
     background-image: none;
+  }
+  h2 {
+    text-align: center;
   }
   .borde {
     display: none;
@@ -284,12 +304,6 @@ footer nav div a h6 {
   .imagen-2 {
     width: 300px;
     margin-left: 0px;
-  }
-  .grid-container {
-    padding: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
   }
   div form {
     margin-left: 70px;

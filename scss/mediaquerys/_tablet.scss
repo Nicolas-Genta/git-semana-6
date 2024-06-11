@@ -1,4 +1,11 @@
 @media (max-width: 767px) {
+    .grid-container {
+        padding: 50px;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: 1fr 1fr;
+    }
+    
     header nav {
         display: none;
     }
@@ -13,6 +20,10 @@
                 }
             }
         }
+    }
+
+    h2{
+        text-align: center;
     }
 
     .borde {
@@ -35,13 +46,6 @@
     .imagen-2 {
         width: 300px;
         margin-left: 0px;
-    }
-
-    .grid-container {
-        padding: 50px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 30px;
     }
 
     div form {

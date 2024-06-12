@@ -1,4 +1,4 @@
-@media (max-width: 426px) {
+@media (min-width: 320px) and (max-width: 426px) {
     .grid-container {
         padding: 50px;
         display: grid;
@@ -6,6 +6,10 @@
         grid-template-columns: 1fr;
     }
     
+    header nav {
+        display: none;
+    }
+
     header {
         nav {
             ul {
@@ -18,13 +22,21 @@
         }
     }
 
+    .borde {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
     .subtitulo{
         margin: 0px;
         text-align: center;
     }
 
     .tarjetas{
-        margin-left: 120px;
+        width: 75%;
     }
 
     .contenedor {

@@ -123,11 +123,13 @@ main div p {
 .imagen-1 {
   width: 400px;
   margin: 40px;
+  border-radius: 10px;
 }
 
 .imagen-2 {
   width: 400px;
   margin: 40px;
+  border-radius: 10px;
 }
 
 .texto-mapa {
@@ -191,12 +193,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   margin-left: 60px;
+  margin-top: 100px;
 }
 
 .card {
   z-index: -1;
   margin: 50px;
   box-shadow: 10px 10px 20px rgb(124, 124, 124);
+  width: 40%;
 }
 
 footer {
@@ -209,22 +213,31 @@ footer nav div a h6 {
   margin-left: 40px;
 }
 
-@media (max-width: 426px) {
+@media (min-width: 320px) and (max-width: 426px) {
   .grid-container {
     padding: 50px;
     display: grid;
     grid-gap: 30px;
     grid-template-columns: 1fr;
   }
+  header nav {
+    display: none;
+  }
   header nav ul li a:hover {
     background-image: none;
+  }
+  .borde {
+    display: none;
+  }
+  .logo {
+    display: none;
   }
   .subtitulo {
     margin: 0px;
     text-align: center;
   }
   .tarjetas {
-    margin-left: 120px;
+    width: 75%;
   }
   .contenedor {
     margin: 20px;
@@ -272,7 +285,7 @@ footer nav div a h6 {
     flex-direction: column-reverse;
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 427px) and (max-width: 767px) {
   .grid-container {
     padding: 50px;
     display: grid;
@@ -288,8 +301,15 @@ footer nav div a h6 {
   h2 {
     text-align: center;
   }
+  .subtitulo {
+    margin: 0px;
+    text-align: center;
+  }
   .borde {
     display: none;
+  }
+  .tarjetas {
+    width: 30%;
   }
   .logo {
     display: none;

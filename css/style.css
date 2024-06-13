@@ -91,7 +91,7 @@ h2 {
   justify-content: center;
   align-items: center;
   font-size: 34px;
-  margin: 50px;
+  margin-top: 50px;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-decoration: underline;
 }
@@ -120,8 +120,14 @@ main div p {
   z-index: -1;
 }
 
+.imagen-plantas {
+  width: 320px;
+  margin: 40px;
+  border-radius: 10px;
+}
+
 .imagen-1 {
-  width: 400px;
+  width: 320px;
   margin: 40px;
   border-radius: 10px;
 }
@@ -153,6 +159,7 @@ main div p {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 20px;
 }
 
 div form {
@@ -207,6 +214,11 @@ footer {
   background-color: rgb(247, 246, 246);
   border-top: 2px solid black;
 }
+footer nav div ul li {
+  font-size: 20px;
+  list-style-type: none;
+  margin-right: 90px;
+}
 footer nav div a h6 {
   color: blue;
   font-size: 30px;
@@ -250,6 +262,9 @@ footer nav div a h6 {
   .imagen-2 {
     width: 250px;
     margin: 10px;
+  }
+  .size {
+    font-size: 15px;
   }
   .mapa {
     width: 290px;
@@ -318,12 +333,15 @@ footer nav div a h6 {
     font-size: 30px;
   }
   .imagen-1 {
-    width: 300px;
+    width: 220px;
     margin-right: 0px;
   }
   .imagen-2 {
     width: 300px;
     margin-left: 0px;
+  }
+  .size {
+    font-size: 17px;
   }
   div form {
     margin-left: 70px;

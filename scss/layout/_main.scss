@@ -9,7 +9,7 @@
 h2 {
     @include display(flex, center, center);
     font-size: 34px;
-    margin: 50px;
+    margin-top: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
 }
@@ -46,8 +46,14 @@ main{
     z-index: -1;
 }
 
+.imagen-plantas{
+    width: 320px;
+    margin: 40px;
+    border-radius: 10px;
+}
+
 .imagen-1{
-    width: 400px;
+    width: 320px;
     margin: 40px;
     border-radius: 10px;
 }
